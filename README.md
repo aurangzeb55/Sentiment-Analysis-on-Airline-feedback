@@ -20,35 +20,37 @@ It builds a **Logistic Regression** classification pipeline with text preprocess
 
 ## ⚙️ Setup Instructions
 
-### 1. Clone Repository
-```bash
-git clone https://github.com/<your-username>/pyspark-sentiment.git
-cd pyspark-sentiment
+1. Clone Repository
+   ```bash
+   git clone https://github.com/<your-username>/pyspark-sentiment.git
+   cd pyspark-sentiment
+   '''
 
-### 2. Creat Visual Environment
-'''bash
-python -m venv .venv
-# Activate:
-# Windows:
-.venv\Scripts\activate
-# macOS/Linux:
-source .venv/bin/activate
+2. Creat Visual Environment
 
-### 3. Install Dependencies
-'''bash
-pip install -r requirements.txt
+   '''
+    python -m venv .venv
+    # Activate:
+    # Windows:
+    .venv\Scripts\activate
+    # macOS/Linux:
+    source .venv/bin/activate
+    '''
+
+4. Install Dependencies
+
+   '''
+    pip install -r requirements.txt
+      '''
 
 ---
+
 📊 Dataset
 
 File: BA_Airline.csv
-
 Columns Used:
-
 feedback_text → Passenger review text
-
 sentiment → Target variable (Positive / Negative)
-
 Additional service-related columns (Food & Beverages, Inflight Entertainment, Wifi & Connectivity)
 
 ⚠️ If the dataset is large, use Git LFS or place it manually in the data/ folder.
@@ -65,47 +67,30 @@ spark-submit --master local[*] src/sentiment_pyspark.py
 🔑 Features
 
 Preprocessing pipeline (Tokenizer → StopWordsRemover → CountVectorizer → TF-IDF → Label Encoding)
-
 Logistic Regression Model
-
 Train/Test Split
-
 Model Evaluation: Accuracy, F1-Score
-
 Hyperparameter Tuning with CrossValidator
-
 Data Visualization:
-
 Word frequency
-
 Confusion matrix
-
 Model performance over iterations
-
 Word count distribution by sentiment
-
 Scatter plots
 
 📈 Example Visualizations
 
 Top 10 Most Frequent Words
-
 Confusion Matrix
-
 Model Performance (Accuracy & F1)
-
 Word Count Distribution by Sentiment
 
 🛠️ Technologies Used
 
 PySpark
-
 Matplotlib
-
 Seaborn
-
 Pandas
-
 Scikit-learn
 
 📜 License
