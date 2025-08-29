@@ -24,13 +24,12 @@ It builds a **Logistic Regression** classification pipeline with text preprocess
    ```bash
    git clone https://github.com/<your-username>/pyspark-sentiment.git
    cd pyspark-sentiment
-   '''
+   ```
 
 2. Creat Visual Environment:
      ```
      python -m venv .venv
-         '''
-
+     ```
 # Activate:
 # Windows:
 .venv\Scripts\activate
@@ -41,7 +40,7 @@ source .venv/bin/activate
 
     ```
     pip install -r requirements.txt
-    '''
+    ```
 
 ---
 
