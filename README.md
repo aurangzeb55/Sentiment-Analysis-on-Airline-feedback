@@ -101,4 +101,7 @@ This project is licensed under the MIT License – feel free to use and modify.
 Developed by Aurangzeb Sheikh ✨
 If you find this useful, don’t forget to ⭐ star the repo!
 
+🌐 Connect With Me
+[![GitHub](https://img.shields.io/badge/GitHub-Profile-aurangzeb55-black?logo=github&logoColor=white)](https://github.com/aurangzeb55)
+
 Would you like me to also include **sample output screenshots** (plots, confusion matrix, accuracy metrics) placeholders in the README so that it looks more professional when you push it to GitHub?
