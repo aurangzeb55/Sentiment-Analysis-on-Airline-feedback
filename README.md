@@ -15,7 +15,6 @@ It builds a **Logistic Regression** classification pipeline with text preprocess
 │── README.md # Project documentation
 │── .gitignore # Ignore unnecessary files
 
-
 ---
 
 ## ⚙️ Setup Instructions
@@ -44,7 +43,7 @@ source .venv/bin/activate
 
 ---
 
-##📊 Dataset
+## 📊 Dataset
 
 File: BA_Airline.csv
 Columns Used:
@@ -55,9 +54,9 @@ Additional service-related columns (Food & Beverages, Inflight Entertainment, Wi
 ⚠️ If the dataset is large, use Git LFS or place it manually in the data/ folder.
 Alternatively, provide only a sample dataset for testing.
 
-===
+---
 
-##🚀 Running the Project
+## 🚀 Running the Project
 Option 1: Run with Python
 python src/sentiment_pyspark.py
 
@@ -65,9 +64,9 @@ python src/sentiment_pyspark.py
 Option 2: Run with Spark Submit
 spark-submit --master local[*] src/sentiment_pyspark.py
 
-===
+---
 
-##🔑 Features
+## 🔑 Features
 
 Preprocessing pipeline (Tokenizer → StopWordsRemover → CountVectorizer → TF-IDF → Label Encoding)
 Logistic Regression Model
@@ -81,18 +80,18 @@ Model performance over iterations
 Word count distribution by sentiment
 Scatter plots
 
-===
+---
 
-##📈 Example Visualizations
+## 📈 Example Visualizations
 
 Top 10 Most Frequent Words
 Confusion Matrix
 Model Performance (Accuracy & F1)
 Word Count Distribution by Sentiment
 
-===
+---
 
-##🛠️ Technologies Used
+## 🛠️ Technologies Used
 
 PySpark
 Matplotlib
@@ -100,22 +99,22 @@ Seaborn
 Pandas
 Scikit-learn
 
-===
+---
 
-##📜 License
+## 📜 License
 
 This project is licensed under the MIT License – feel free to use and modify.
 
-===
+---
 
-🙌 Author
+## 🙌 Author
 
 Developed by Aurangzeb Sheikh ✨
 If you find this useful, don’t forget to ⭐ star the repo!
 
-===
+---
 
-##🌐 Connect With Me
+## 🌐 Connect With Me
 [![GitHub](https://img.shields.io/badge/GitHub-Profile-aurangzeb55-black?logo=github&logoColor=white)](https://github.com/aurangzeb55)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-aurangzeb-sheikh-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aurangzeb-sheikh-71ba6b2ba)
 
