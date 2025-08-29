@@ -103,7 +103,7 @@ If you find this useful, don’t forget to ⭐ star the repo!
 
 🌐 Connect With Me
 [![GitHub](https://img.shields.io/badge/GitHub-Profile-aurangzeb55-black?logo=github&logoColor=white)](https://github.com/aurangzeb55)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Aurangzeb-Sheikh-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/Aurangzeb-Sheikh/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-aurangzeb-sheikh-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aurangzeb-sheikh-71ba6b2ba)
 
 
 Would you like me to also include **sample output screenshots** (plots, confusion matrix, accuracy metrics) placeholders in the README so that it looks more professional when you push it to GitHub?
