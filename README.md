@@ -26,22 +26,22 @@ It builds a **Logistic Regression** classification pipeline with text preprocess
    cd pyspark-sentiment
    '''
 
-2. Creat Visual Environment
+2. Creat Visual Environment:
+     ```
+     python -m venv .venv
+         '''
 
-   '''
-    python -m venv .venv
-    # Activate:
-    # Windows:
-    .venv\Scripts\activate
-    # macOS/Linux:
-    source .venv/bin/activate
-    '''
+# Activate:
+# Windows:
+.venv\Scripts\activate
+# macOS/Linux:
+source .venv/bin/activate
 
 4. Install Dependencies
 
-   '''
+    ```
     pip install -r requirements.txt
-      '''
+    '''
 
 ---
 
