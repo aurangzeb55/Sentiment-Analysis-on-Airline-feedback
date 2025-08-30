@@ -115,5 +115,5 @@ If you find this useful, don’t forget to ⭐ star the repo!
 ---
 
 ## 🌐 Connect With Me
-[![GitHub](https://img.shields.io/badge/GitHub-Profile-aurangzeb55-black?logo=github&logoColor=white)](https://github.com/aurangzeb55)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-aurangzeb-sheikh-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aurangzeb-sheikh-71ba6b2ba)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/aurangzeb55)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aurangzeb-sheikh-71ba6b2ba)
